@@ -1,0 +1,86 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 1em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-color: #0B390B;
+}
+
+.box{
+    display: flex;
+    margin-left: 30%;
+    margin-top: 3.5%;
+    height: 628px;
+    width: 583px;
+    background-color: white;
+    border-radius: 5%;
+    box-shadow:0 8px 10px 0 rgba(0, 0, 0, 0.2), 0 15px 10px 0 rgba(0, 0, 0, 0.19);
+    flex-direction: column;
+    align-items: center;
+}
+
+.pic{
+    display: flex;
+    height: 110px;
+    width: 110px;
+    margin-top: 10%;
+}
+
+.pl{
+    color: #0B390B;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+.details{
+    color: #686868;
+}
+
+.pl, .details{
+    text-align: center;
+    margin-top: 5px;
+}
+
+.error{
+    color: red;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.forgot, a{
+    color: #0B390B;
+}
+
+.subbox{
+    display: flex;
+    height: 40px;
+    width: 250px;
+    background-color: #0B390B;
+    color: white;
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.stud{
+    color: #686868;
+    margin-top: 70px;
+}
+
+#email, #password{
+    height: 40px;
+}
+
+.buttonbox{
+    display: flex;
+    justify-content: center;
+}
